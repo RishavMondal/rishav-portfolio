@@ -5,35 +5,141 @@ import { motion } from "framer-motion";
 const projects = [
   {
     title: "Optical Music Recognition",
+
     description:
-      "Deep learning research project focused on handwritten music manuscript recognition and segmentation, published by ACM.",
+      "ACM-published deep learning research system for handwritten opera manuscript recognition using 60GB+ archival image datasets and segmentation models.",
+
     gradient:
       "from-purple-500/20 to-blue-500/20",
   },
 
   {
     title: "Reverse ATS System",
+
     description:
-      "AI-powered resume analysis platform that evaluates ATS compatibility and improves resume optimization using NLP techniques.",
+      "AI-powered resume optimization platform using NLP and ATS-based scoring to improve resume targeting and job application effectiveness.",
+
     gradient:
       "from-green-500/20 to-cyan-500/20",
   },
 
   {
-    title: "MediBot",
+    title: "MediBot AI Platform",
+
     description:
-      "Intelligent healthcare assistant platform integrating AI-driven workflows, conversational interfaces, and medical support tools.",
+      "Healthcare-focused AI platform integrating conversational workflows, intelligent assistance, and scalable backend-driven medical support systems.",
+
     gradient:
       "from-pink-500/20 to-orange-500/20",
   },
 
   {
-    title: "Marketing Analytics",
+    title: "Marketing Analytics Engine",
+
     description:
-      "Customer behavior and campaign analytics project involving A/B testing, engagement optimization, and ROI-focused insights.",
+      "Customer behavior analytics and experimentation system involving A/B testing, campaign optimization, engagement analysis, and ROI-focused insights.",
+
     gradient:
       "from-yellow-500/20 to-red-500/20",
   },
+
+  {
+    title: "Credit Card Fraud Detection",
+
+    description:
+      "Graph-based fraud detection system using Neo4j, machine learning, and anomaly detection techniques to identify suspicious transaction behavior.",
+
+    gradient:
+      "from-indigo-500/20 to-violet-500/20",
+  },
+
+  {
+    title: "Azure Data Engineering Pipelines",
+
+    description:
+      "Scalable cloud-based ETL and analytics pipelines built using Azure Data Factory, Databricks, Python, and SQL for ML-ready data workflows.",
+
+    gradient:
+      "from-cyan-500/20 to-sky-500/20",
+  },
+
+  {
+    title: "Ad Spend Optimization System",
+
+    description:
+      "Large-scale marketing analytics project analyzing 300K+ campaign records using PySpark and predictive modeling to optimize ROI and conversions.",
+
+    gradient:
+      "from-emerald-500/20 to-teal-500/20",
+  },
+
+  {
+    title: "Campus Store Analytics",
+
+    description:
+      "Data-driven customer analytics project analyzing survey and transaction data to improve engagement, optimize product strategy, and validate marketing campaigns.",
+
+    gradient:
+      "from-rose-500/20 to-pink-500/20",
+  },
+  {
+  title: "Music Genre Prediction",
+
+  description:
+    "Machine learning classification system for predicting music genres using audio feature extraction and supervised learning techniques.",
+
+  gradient:
+    "from-fuchsia-500/20 to-purple-500/20",
+},
+
+{
+  title: "Handwritten Digit Recognition",
+
+  description:
+    "Computer vision and deep learning project for handwritten digit classification using neural network-based image recognition models.",
+
+  gradient:
+    "from-blue-500/20 to-cyan-500/20",
+},
+
+{
+  title: "Commodity Price Forecasting",
+
+  description:
+    "Predictive analytics and time-series forecasting system for commodity price analysis using statistical modeling and machine learning approaches.",
+
+  gradient:
+    "from-orange-500/20 to-yellow-500/20",
+},
+
+{
+  title: "Twitter Sentiment Analysis",
+
+  description:
+    "Natural language processing project analyzing public sentiment from Twitter data using text preprocessing, classification, and sentiment scoring techniques.",
+
+  gradient:
+    "from-sky-500/20 to-indigo-500/20",
+},
+
+{
+  title: "National Commercial Bank Analysis",
+
+  description:
+    "Financial analytics and business intelligence project focused on banking performance analysis, operational insights, and strategic decision support.",
+
+  gradient:
+    "from-emerald-500/20 to-green-500/20",
+},
+{
+  title: "Cardiovascular Stroke Analysis",
+
+  description:
+    "Healthcare analytics and machine learning project focused on identifying stroke risk patterns using patient health indicators, statistical analysis, and predictive modeling techniques.",
+
+  gradient:
+    "from-red-500/20 to-pink-500/20",
+},
 ];
 
 export default function Projects() {

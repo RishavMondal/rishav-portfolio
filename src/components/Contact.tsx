@@ -51,7 +51,7 @@ export default function Contact() {
 
         <motion.a
           whileHover={{ scale: 1.05 }}
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/rishav-mondal-rm/"
           target="_blank"
           className="border border-white/20 px-6 py-3 rounded-full"
         >

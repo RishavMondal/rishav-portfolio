@@ -11,6 +11,13 @@ export default function Navbar() {
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
+          <a
+          href="/Rishav_Mondal_Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+          Resume
+          </a>
         </div>
 
       </div>

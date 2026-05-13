@@ -6,34 +6,86 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-6 overflow-hidden">
 
-      {/* Glow Background */}
-      <div className="absolute w-[500px] h-[500px] bg-purple-500/20 rounded-full blur-3xl" />
+      {/* Background Glow */}
+      <div className="absolute top-[-100px] w-[700px] h-[700px] bg-purple-500/20 rounded-full blur-3xl" />
 
-      <motion.h1
-        initial={{ opacity: 0, y: 80 }}
-        animate={{ opacity: 1, y: 0 }}
+      {/* Small Grid Effect */}
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:60px_60px]" />
+
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
-        className="text-6xl md:text-8xl font-bold mb-6 relative z-10"
+        className="relative z-10"
       >
-        Rishav Mondal
-      </motion.h1>
 
       <motion.p
-        initial={{ opacity: 0, y: 40 }}
+        initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1, delay: 0.3 }}
-        className="text-zinc-400 text-lg md:text-xl max-w-2xl mb-8 relative z-10"
-      >
-        Machine Learning • Data Engineering • Analytics
+        transition={{ delay: 0.2 }}
+        className="uppercase tracking-[0.3em] text-sm text-zinc-500 mb-6"
+        >
+        Applied AI • Machine Learning • Data Engineering
       </motion.p>
 
-      <motion.button
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
-        className="bg-white text-black px-6 py-3 rounded-full relative z-10"
-      >
-        View Projects
-      </motion.button>
+        <motion.h1
+          initial={{ opacity: 0, y: 80 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className="text-6xl md:text-8xl lg:text-[10rem] font-bold leading-none mb-8"
+        >
+          Rishav
+          <br />
+          Mondal
+        </motion.h1>
+
+        <motion.p
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.4 }}
+          className="max-w-2xl mx-auto text-zinc-400 text-lg md:text-xl leading-8 mb-10"
+          >
+          Building scalable AI systems, intelligent analytics platforms,
+          and machine learning workflows across research and real-world applications.
+        </motion.p>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.6 }}
+          className="flex gap-4 justify-center"
+        >
+
+          <motion.a
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            href="#projects"
+            className="bg-white text-black px-8 py-4 rounded-full font-medium"
+          >
+            View Projects
+          </motion.a>
+
+          <motion.a
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            href="#contact"
+            className="bg-white text-black px-8 py-4 rounded-full font-medium"
+          >
+            Contact Me
+          </motion.a>
+
+          <motion.a
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            href="/Rishav_Mondal_Resume.pdf"
+            target="_blank"
+            className="bg-white text-black px-8 py-4 rounded-full font-medium"
+          >
+            Resume
+          </motion.a>
+        </motion.div>
+
+      </motion.div>
 
     </section>
   );

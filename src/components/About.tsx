@@ -26,10 +26,11 @@ export default function About() {
         viewport={{ once: true }}
         className="text-zinc-400 max-w-3xl text-lg leading-8 mb-12"
       >
-        I work across machine learning, data engineering, and analytics,
-        building scalable systems that combine AI with real-world impact.
-        My interests include deep learning, cloud data infrastructure,
-        intelligent automation, and data-driven decision systems.
+        I’m a machine learning and data engineering focused developer with
+        experience building scalable AI systems, analytics platforms, and
+        research-driven applications. My work spans deep learning,
+        data pipelines, cloud infrastructure, and applied AI, with a focus
+        on combining strong engineering foundations with impactful real-world use cases.
       </motion.p>
 
       <div className="grid md:grid-cols-3 gap-6">
@@ -38,7 +39,7 @@ export default function About() {
           whileHover={{ y: -8 }}
           className="border border-white/10 bg-white/5 rounded-3xl p-6"
         >
-          <h3 className="text-3xl font-bold mb-2">60GB+</h3>
+          <h3 className="text-3xl font-bold mb-2">500K</h3>
           <p className="text-zinc-400">
             Archival ML dataset processed
           </p>
@@ -50,7 +51,7 @@ export default function About() {
         >
           <h3 className="text-3xl font-bold mb-2">ACM</h3>
           <p className="text-zinc-400">
-            Published research conference
+            Paper published and presented at research conference
           </p>
         </motion.div>
 
@@ -58,7 +59,7 @@ export default function About() {
           whileHover={{ y: -8 }}
           className="border border-white/10 bg-white/5 rounded-3xl p-6"
         >
-          <h3 className="text-3xl font-bold mb-2">AI + Data</h3>
+          <h3 className="text-3xl font-bold mb-2">AI + Data Systems</h3>
           <p className="text-zinc-400">
             Engineering and analytics systems
           </p>
